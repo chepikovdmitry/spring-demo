@@ -1,8 +1,8 @@
 package by;
 
-import javax.annotation.Resource;
+import org.springframework.stereotype.Repository;
 
-@Resource
+@Repository
 public class ActionDance implements IAction{
     public void action() {
         System.out.println("Dance");

@@ -22,6 +22,8 @@
             </list>
         </constructor-arg>
     </bean>-->
+    <bean class="by.t2BeanPostProcessor"/>
+    <bean class="by.t1BeanPostProcessor"/>
     <context:annotation-config></context:annotation-config>
     <context:component-scan base-package="by"></context:component-scan>
 </beans>
